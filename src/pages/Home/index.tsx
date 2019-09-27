@@ -1,8 +1,6 @@
 import * as React from "react"
 import { Link } from "react-router-dom"
 
-import { Button } from "../../components/Button"
-
 interface HomeProps {}
 
 const Home: React.FunctionComponent<HomeProps> = () => {
@@ -15,11 +13,9 @@ const Home: React.FunctionComponent<HomeProps> = () => {
   return (
     <>
       <h1 data-testid="home-title">
-        A bare bones React boilerplate, featuring Webpack 4, React, Jest, PostCSS and
-        TypeScript
+        An Introduction to Test-Driven Development (TDD) on the front-end
       </h1>
       <p>Here is a lovely random number: {state}</p>
-      <Button>I am a primary button</Button>
       <Link to="/about">About</Link>
       <br />
       <Link to="/nope">404 Page</Link>

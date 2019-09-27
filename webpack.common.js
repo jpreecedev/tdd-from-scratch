@@ -1,7 +1,6 @@
 const { resolve } = require("path")
 const HtmlWebPackPlugin = require("html-webpack-plugin")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
-const CopyWebpackPlugin = require("copy-webpack-plugin")
 const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 const WebpackBar = require("webpackbar")
 
@@ -97,7 +96,6 @@ const config = {
       filename: isDevelopment ? "[name].css" : "[name].[hash].css",
       chunkFilename: isDevelopment ? "[id].css" : "[id].[hash].css"
     }),
-    new CopyWebpackPlugin([{ from: "./public" }]),
     new WebpackBar()
   ]
 }

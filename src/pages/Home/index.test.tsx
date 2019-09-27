@@ -20,7 +20,7 @@ describe("<Home /> tests", () => {
   it("should render with correct as title", () => {
     const { getByTestId } = renderComponent()
     expect(getByTestId("home-title")).toHaveTextContent(
-      "A bare bones React boilerplate, featuring Webpack 4, React, Jest, PostCSS and TypeScript"
+      "An Introduction to Test-Driven Development (TDD) on the front-end"
     )
   })
 })
