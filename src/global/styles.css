@@ -1,0 +1,35 @@
+body {
+  padding: 20px;
+  font-family: "IBM Plex Serif", serif;
+}
+
+:root {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 16px auto;
+}
+
+.button-primary {
+  background-color: #4caf50;
+}
+
+.button-secondary {
+  background-color: #0d4f8b;
+}
+
+.text-center {
+  text-align: center;
+}
