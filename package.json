@@ -61,7 +61,7 @@
     "react-docgen-typescript-loader": "^3.2.1",
     "source-map-loader": "^0.2.4",
     "style-loader": "^1.0.0",
-    "stylelint": "^10.1.0",
+    "stylelint": "^15.10.1",
     "stylelint-config-standard": "^18.3.0",
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.3",
